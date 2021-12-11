@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.demo-container {
+  margin: auto;
+  /* height: 90vh; */
+  width: 75vw;
+  /* padding-top: 15px; */
+  /* border: solid 2px red; */
+}
+
+.demo-container h3, .demo-container p {
+  text-align: left;
+}
+.demo-container h3 {
+  margin-top: 50px;
+}
+.demo-container p {
+  line-height: 1.5em;
+}
+
+@media (min-width:768px) {
+  .demo-container {
+    width: 50vw;
+  }
+}

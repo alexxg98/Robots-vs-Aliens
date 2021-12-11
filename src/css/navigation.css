@@ -1,0 +1,21 @@
+.nav{
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  left: 1%;
+  overflow-x: hidden;
+  color: #AFE1AF;
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+  line-height: 3em;
+}
+li a{
+  color: #AFE1AF;
+  text-decoration: none;
+}
+li a:hover {
+  color: #318131;
+}
