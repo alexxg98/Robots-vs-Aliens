@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Robots-vs-Aliens/static/css/main.30a7048a.chunk.css",
+    "main.js": "/Robots-vs-Aliens/static/js/main.27551e40.chunk.js",
+    "main.js.map": "/Robots-vs-Aliens/static/js/main.27551e40.chunk.js.map",
+    "runtime-main.js": "/Robots-vs-Aliens/static/js/runtime-main.e13e873f.js",
+    "runtime-main.js.map": "/Robots-vs-Aliens/static/js/runtime-main.e13e873f.js.map",
+    "static/js/2.29e2ce92.chunk.js": "/Robots-vs-Aliens/static/js/2.29e2ce92.chunk.js",
+    "static/js/2.29e2ce92.chunk.js.map": "/Robots-vs-Aliens/static/js/2.29e2ce92.chunk.js.map",
+    "static/js/3.b98c58bb.chunk.js": "/Robots-vs-Aliens/static/js/3.b98c58bb.chunk.js",
+    "static/js/3.b98c58bb.chunk.js.map": "/Robots-vs-Aliens/static/js/3.b98c58bb.chunk.js.map",
+    "index.html": "/Robots-vs-Aliens/index.html",
+    "static/css/main.30a7048a.chunk.css.map": "/Robots-vs-Aliens/static/css/main.30a7048a.chunk.css.map",
+    "static/js/2.29e2ce92.chunk.js.LICENSE.txt": "/Robots-vs-Aliens/static/js/2.29e2ce92.chunk.js.LICENSE.txt",
+    "static/media/RobotsVsAliens.a9681104.png": "/Robots-vs-Aliens/static/media/RobotsVsAliens.a9681104.png",
+    "static/media/StartScreen.328f7ef8.mp4": "/Robots-vs-Aliens/static/media/StartScreen.328f7ef8.mp4",
+    "static/media/StartScreen.ab3ab29e.JPG": "/Robots-vs-Aliens/static/media/StartScreen.ab3ab29e.JPG",
+    "static/media/Walkthru1.496176df.mp4": "/Robots-vs-Aliens/static/media/Walkthru1.496176df.mp4",
+    "static/media/Walkthru2.d2dc7ac5.mp4": "/Robots-vs-Aliens/static/media/Walkthru2.d2dc7ac5.mp4",
+    "static/media/Walkthru3.e570cd1f.mp4": "/Robots-vs-Aliens/static/media/Walkthru3.e570cd1f.mp4",
+    "static/media/logo.8fd2339b.png": "/Robots-vs-Aliens/static/media/logo.8fd2339b.png",
+    "static/media/winlose.c6379268.mp4": "/Robots-vs-Aliens/static/media/winlose.c6379268.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e13e873f.js",
+    "static/js/2.29e2ce92.chunk.js",
+    "static/css/main.30a7048a.chunk.css",
+    "static/js/main.27551e40.chunk.js"
+  ]
+}
