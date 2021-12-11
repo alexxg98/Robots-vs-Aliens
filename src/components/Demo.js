@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import startScreen from '../images/StartScreen.JPG';
+import pauseScreen from '../images/PauseScreen.JPG';
 import title from '../images/RobotsVsAliens.png';
 import startMenuVideo from '../demo_vid/StartScreen.mp4';
 import walkthru1 from '../demo_vid/Walkthru1.mp4';
@@ -14,12 +15,13 @@ export default class Demo extends Component {
 
       <div className="demo-container">
         <div className="start-container">
-          <img src={startScreen} alt="logo" id="startImg" />
+          <img src={startScreen} alt="mainmenu" id="startImg" />
         </div>
 
         <div id="demo-show">
           <h3>Objective</h3>
-          <p>Prevent the invading aliens from reaching homebase.</p>
+          <p>Your homebase is being attacked by aliens who want access to your time portal and it is up to your robots to defend it!</p>
+          <p>The homebase barricades have been breached and your mission is to collect enough coils to repair them while your robots fend off incoming invaders.</p>
           <h3>How To Play</h3>
           <p>When player first loads the unity game, the first screen that displays is the start screen or the main menu. In this screen, there's a simple How-To-Play guide and an About information text.</p>
           <video src={startMenuVideo} autoPlay="true" muted="true" width="100%" loop="true" />
@@ -35,6 +37,9 @@ export default class Demo extends Component {
           <p>The Attacker/Defender robot starts to attack once an Alien is within range and continues until it detects no more Aliens. An Attacker/Defender's beams deals 10HP damage to one Alien at a time, and after certain number of hits, the Alien is defeated and disappears.</p>
           <p>For each Alien that is defeated, there is a random chance that a collectible (coil) may be dropped. Collecting a predetermined number of these is one of two win conditions.</p>
           <video src={walkthru3} autoPlay="true" muted="true" width="100%" loop="true" />
+
+          <p>During gameplay, the player can press the <b>ESC</b> key on the keyboard to pause the game. In this screen, there are two options: <u>Resume</u> the game or <u>Quit</u> and go back to the Main Start Screen.</p>
+          <img src={pauseScreen} alt="pause" />
 
           <h3>Win/Lose Conditions</h3>
           <p><b>To Win</b>, one of the following conditions needs to be met:<br/>1) Collect a certain number of collectibles.<br/>2) Time reaches 0.</p>
